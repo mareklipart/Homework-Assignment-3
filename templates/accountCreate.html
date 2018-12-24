@@ -1,0 +1,32 @@
+<main id="accountCreate">
+        <div>Create Your Account. Enter name, email address, street address, user name and password. </div>
+
+        <div class="formWrapper">
+          <form id="accountCreate" action="/api/users" method="POST">
+            <div class="inputWrapper">
+              <div class="inputLabel">Name</div>
+              <input type="text" name="name" placeholder="John" />
+            </div>
+            <div class="inputWrapper">
+              <div class="inputLabel">Email</div>
+              <input type="text" name="email" placeholder="Smith" />
+            </div>
+            <div class="inputWrapper">
+              <div class="inputLabel">Address</div>
+              <input type="text" name="streetAddress" placeholder="0123456789" />
+            </div>
+            <div class="inputWrapper">
+              <div class="inputLabel">User</div>
+              <input type="text" name="user" placeholder="more then 6 characters" />
+            </div>
+            <div class="inputWrapper">
+              <div class="inputLabel">Password</div>
+              <input type="password" name="password" placeholder="more then 6 characters" />
+            </div>
+            <div class="inputWrapper ctaWrapper">
+              <button type="submit" class="submitButton">Sign up!</button>
+            </div>
+            <div class="formError"></div>
+          </form>
+        </div>
+</main>

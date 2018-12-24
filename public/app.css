@@ -1,0 +1,185 @@
+body,header,nav,main,footer,h1,h2,h3,h4,h5,h6,div,ul{
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(112, 112, 114)
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: gainsboro;
+    z-index: 100;
+}
+
+nav {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+    background-color: gainsboro;
+}
+
+nav a,a:hover,a:active,a:visited {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(73, 73, 75)
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    float: right;
+}
+ 
+nav li {
+    padding-bottom: 5px;
+}
+
+header ul li{
+    display: block;
+    padding: 10px 10px 10 10px;
+}
+
+main {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    width: 400px;
+}
+
+main .navMenuLink:link, .navMenuLink:hover, .navMenuLink:active, .navMenuLink:visited {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(73, 73, 75)
+}
+
+main .check:link, .check:hover, .check:active, .check:visited {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    text-decoration: none;
+    background-color: gainsboro;
+    padding: 7px 7px;
+    color: rgb(73, 73, 75);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.footer .copyright{
+    color: #fff;
+    font-size: 10px;
+}
+
+
+input,select,option {
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 7px 1%;
+    width: 100%;
+}
+
+.checkboxGroup input {
+    display: inline-block;
+    width: initial;
+    margin: 20px;
+}
+
+input.disabled {
+    background-color: #efefef;
+}
+
+.inputWrapper {
+    padding: 0 0 20px 0;
+}
+
+.inputLabel {
+    padding: 0 0 5px 0;
+    color: #808080;
+}
+
+.submitButton, #orderCreate input {
+    border-width: 0px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold !important;
+    width: 100px;
+    padding: 7px !important;
+    color: rgb(73, 73, 75);
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formWrapper {
+    max-width: 500px;
+    padding-top: 15px;
+}
+
+.formError{
+    color: #c83737;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+    padding-top: 5px;
+}
+
+#menuTable input, #cartTable input {
+    border-width: 0px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold !important;
+    width: 100px;
+    padding: 7px !important;
+    color: rgb(73, 73, 75);
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    font-size: 12px;
+    padding-top: 5px;
+}
+  
+tr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+td {
+    padding: 0 50px;
+    border-bottom: 1px solid rgb(136, 136, 138);
+    width: 200px;
+}
+
+.menuRow, .menuRow1 {
+    height: 30px;
+}
+
+.menuRow1 {
+    font-weight: bold;
+};
