@@ -405,8 +405,8 @@ app.bindCheckOrder = () => {
                         document.querySelector(".formError").innerHTML = error;
         
                     } else {
-                        
                         document.querySelector(".formSuccess").innerHTML = 'The payment is done. The invoice has been sent to your email address';
+                        document.querySelector('#createCheck').style.display = 'none';
                         table.innerHTML = '';
                     };
                 });
